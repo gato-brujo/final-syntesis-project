@@ -4,12 +4,13 @@ html {
 
 body {
   margin: 0;
-  background-color: #1a1a1a;
+  background-image: url("https://wallpaperaccess.com/full/887323.jpg");
 }
 
 header h1 {
   background-image: url("../imagen/gala.png");
   color: rgb(245, 245, 245);
+  border: 4px solid #ccc;
   padding: 4rem 4rem;
   font-size: 5rem;
   text-align: center;
@@ -105,8 +106,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #b8f5df;
+  border: 4px solid #ccc;
+  background-color: #b075b6ce;
   width: 800px;
   margin: 0 auto;
   border-radius: 10rem;
@@ -125,7 +126,7 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: rgb(161, 228, 228);
+  background-color: rgb(122, 88, 138);
 }
 
 /* Create an active/current tablink class */
@@ -137,8 +138,8 @@ footer a:hover {
 .tabcontent {
   display: none;
   padding: 0.25rem 0;
-  border: 1px solid #ccc;
-  background-color: rgb(219, 200, 241);
+  border: 4px solid #ccc;
+  background-color: rgba(163, 96, 127, 0.753);
   border-top: none;
   border-radius: 5rem;
   width: 800px;
