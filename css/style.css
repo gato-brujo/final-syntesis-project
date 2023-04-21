@@ -10,6 +10,7 @@ body {
 header h1 {
   background-image: url("../imagen/gala.png");
   color: rgb(245, 245, 245);
+  text-shadow: 5px 4px rgb(94, 92, 92);
   border: 4px solid #ccc;
   padding: 4rem 4rem;
   font-size: 5rem;
@@ -68,11 +69,11 @@ body p:hover {
 }
 
 footer {
-  background-color: #222;
+  background-color: rgba(24, 24, 24, 0.973);
   text-align: center;
   padding: 3rem;
   color: rgb(255, 254, 254);
-  border-radius: 10rem;
+  border-radius: 8rem;
 }
 
 footer p {
@@ -107,7 +108,7 @@ footer a:hover {
 .tab {
   overflow: hidden;
   border: 4px solid #ccc;
-  background-color: #b075b6ce;
+  background-color: #b675add3;
   width: 800px;
   margin: 0 auto;
   border-radius: 10rem;
@@ -126,12 +127,12 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: rgb(122, 88, 138);
+  background-color: rgb(138, 88, 130);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: rgb(145, 202, 212);
+  background-color: rgb(151, 85, 107);
 }
 
 /* Style the tab content */
@@ -139,7 +140,7 @@ footer a:hover {
   display: none;
   padding: 0.25rem 0;
   border: 4px solid #ccc;
-  background-color: rgba(163, 96, 127, 0.753);
+  background-color: rgba(163, 96, 127, 0.842);
   border-top: none;
   border-radius: 5rem;
   width: 800px;
